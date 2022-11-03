@@ -1,0 +1,33 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.loginApp-bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginApp-container {
+  height: 450px;
+  width: 450px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+}
+
+@media screen and (max-width: 575px) {
+  .loginApp-container {
+    height: 330px;
+    width: 330px;
+  }
+}
